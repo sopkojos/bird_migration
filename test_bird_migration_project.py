@@ -10,5 +10,5 @@ import bird_migration_project
 import pandas as pd
 
 def test_file_load_good():
-    data = pd.read_csv('arctic_loon_import.csv')
-    assert type(data) == pandas.core.series.Series
+    data = pd.read_csv('arctic_loon_import.csv', sep='\t',low_memory=False)
+    assert type(data) == pd.core.frame.DataFrame

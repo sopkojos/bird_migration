@@ -14,15 +14,15 @@ def ebird_import(filename):
     #plt.scatter(long,lat)
     return [long,lat]
 
-def average_latitude_position(yearmonth,latitude):
-    '''calculates the average latitude of the species over the course of 1950-1980 then calculates monthly change over the entire period'''
-    return [latitude_index]
+#def average_latitude_position(yearmonth,latitude):
+    #'''calculates the average latitude of the species over the course of 1950-1980 then calculates monthly change over the entire period'''
+    #return [latitude_index]
 
-def weather_import(weather_filename):
-    '''imports csv file for NASAs GLOBAL LAND-OCEAN TEMPERATURE INDEX. function will also convert into the same date format as the latitude index'''
-    df_w = pd.read_csv('weather_filename')
-    return [temperature_index] 
+#def weather_import(weather_filename):
+    #'''imports csv file for NASAs GLOBAL LAND-OCEAN TEMPERATURE INDEX. function will also convert into the same date format as the latitude index'''
+    #df_w = pd.read_csv('weather_filename')
+    #return [temperature_index] 
 
-def correlation_func(long_index,weather_index):
-    '''peforms statistical analysis between the latitude and weather indexes including plots'''
-    return
+#def correlation_func(long_index,weather_index):
+    #'''peforms statistical analysis between the latitude and weather indexes including plots'''
+    #return

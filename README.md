@@ -8,7 +8,7 @@ pip install pandas
 pip install numpy
 pip install ploty.express
 
-
+The example csv files are over 100mb and were used with git-lfs to host them. You may need to have this installed in order to pull the full files. Instructions for that can be found here https://git-lfs.github.com/ 
 
 The project is mainly in the bird_migration_working notebook. All the functions are in the bird_migration_working.py file. 
 
